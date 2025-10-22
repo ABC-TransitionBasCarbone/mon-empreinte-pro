@@ -1,4 +1,4 @@
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 
 export function getSubcatsOfCategory(
   category: DottedName,

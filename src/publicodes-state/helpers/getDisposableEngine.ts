@@ -1,4 +1,4 @@
-import { DottedName, NGCRules } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import Engine from 'publicodes'
 import { Situation } from '../types'
 import { safeEvaluateHelper } from './safeEvaluateHelper'

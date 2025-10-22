@@ -42,7 +42,8 @@ export default function TotalNumber({ total, isSmall }: Props) {
     localize: false,
   })
 
-  const originPosition = (usedValue / 1000) * 100
+
+  const originPosition = (usedValue / 1000 / 12) * 100
 
   const position = useMemo(() => {
     if (originPosition <= 0) {

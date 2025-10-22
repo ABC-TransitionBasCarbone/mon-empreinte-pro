@@ -1,7 +1,7 @@
 import { getServerTranslation } from '@/helpers/getServerTranslation'
 import { getMetadataObject } from '@/helpers/metadata/getMetadataObject'
 import { FormProvider } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import { PropsWithChildren } from 'react'
 
 type Props = { params: { root: DottedName } }

@@ -1,7 +1,7 @@
 import ChoiceInput from '@/components/misc/ChoiceInput'
 import Emoji from '@/design-system/utils/Emoji'
 import { useRule } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 
 type Props = {
   question: DottedName

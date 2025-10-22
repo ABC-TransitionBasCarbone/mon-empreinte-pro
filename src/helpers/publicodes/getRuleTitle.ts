@@ -1,4 +1,4 @@
-import { DottedName, NGCRule } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import { utils } from 'publicodes'
 
 export const getRuleTitle = (

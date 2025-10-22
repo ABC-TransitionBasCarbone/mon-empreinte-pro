@@ -1,5 +1,5 @@
 import { useEngine } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import RavijenChart from './RavijenChart'
 
 export default function ServicesChart() {

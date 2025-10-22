@@ -15,7 +15,7 @@ import {
   useUser,
 } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import { utils } from 'publicodes'
 import ActionForm from '../../_components/actionsContent/actions/ActionForm'
 

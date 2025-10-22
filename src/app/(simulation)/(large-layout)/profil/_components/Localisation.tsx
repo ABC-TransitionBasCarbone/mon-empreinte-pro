@@ -9,7 +9,7 @@ import { useIframe } from '@/hooks/useIframe'
 import { useLocale } from '@/hooks/useLocale'
 import { useUser } from '@/publicodes-state'
 import { RegionFromGeolocation } from '@/publicodes-state/types'
-import { SupportedRegions } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { SupportedRegions } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import RegionModelAuthors from './localisation/RegionModelAuthors'
 import RegionSelector from './localisation/RegionSelector'
 

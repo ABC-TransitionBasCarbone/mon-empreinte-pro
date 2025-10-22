@@ -4,7 +4,7 @@ import {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@abc-transitionbascarbone/calculateur-tourisme'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import RuleDetail from './calculDetail/RuleDetail'
 
 export default function CalculDetail({

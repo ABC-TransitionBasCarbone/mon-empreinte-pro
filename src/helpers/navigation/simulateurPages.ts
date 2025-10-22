@@ -1,4 +1,4 @@
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 
 type Props = {
   question?: DottedName

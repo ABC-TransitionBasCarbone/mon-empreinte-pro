@@ -1,5 +1,5 @@
 import { getLinkToSimulateur } from '@/helpers/navigation/simulateurPages'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useCallback } from 'react'
 

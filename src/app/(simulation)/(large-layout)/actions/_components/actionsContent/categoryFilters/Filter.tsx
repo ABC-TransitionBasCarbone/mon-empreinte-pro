@@ -8,7 +8,7 @@ import {
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 type Props = {
@@ -42,8 +42,8 @@ export default function Filter({ dottedName, countByCategory }: Props) {
   return (
     <li
       className={`height-[1.8rem] rounded-md ${!categorySelected || categorySelected === dottedName
-          ? getBackgroundLightColor(dottedName)
-          : 'bg-gray-200'
+        ? getBackgroundLightColor(dottedName)
+        : 'bg-gray-200'
         }`}
       style={{
         backgroundColor: getBackgroundColor(),

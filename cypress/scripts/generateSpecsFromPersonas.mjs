@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs'
 
-import personas from '@abc-transitionbascarbone/calculateur-tourisme/public/personas-fr.json' assert { type: 'json' }
+import personas from '@abc-transitionbascarbone/mon-empreinte-pro-modele/public/personas-fr.json' assert { type: 'json' }
 
 /**
  * @param {string} name
