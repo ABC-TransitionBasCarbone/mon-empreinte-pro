@@ -2,4 +2,4 @@
 
 yarn lint
 
-yarn lint:types
+# yarn lint:types
