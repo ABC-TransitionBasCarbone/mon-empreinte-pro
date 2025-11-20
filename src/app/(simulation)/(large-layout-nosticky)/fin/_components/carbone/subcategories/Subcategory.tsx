@@ -5,7 +5,7 @@ import {
   getTextDarkColor,
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { twMerge } from 'tailwind-merge'
 import Actions from './subcategory/Actions'
 

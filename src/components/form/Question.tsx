@@ -19,7 +19,7 @@ import {
 import Button from '@/design-system/inputs/Button'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useEffect, useRef, useState } from 'react'
 import { twMerge } from 'tailwind-merge'
 import Trans from '../translation/Trans'

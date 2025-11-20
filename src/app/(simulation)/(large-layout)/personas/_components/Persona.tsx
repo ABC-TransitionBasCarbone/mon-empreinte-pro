@@ -9,7 +9,7 @@ import { useDisposableEngine, useSimulation, useUser } from '@/publicodes-state'
 import {
   DottedName,
   Persona as PersonaType,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useRouter } from 'next/navigation'
 
 type Props = {

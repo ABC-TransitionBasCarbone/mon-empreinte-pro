@@ -3,7 +3,7 @@ import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useRule } from '@/publicodes-state'
 import { TranslationFunctionType } from '@/types/translation'
 import { getCorrectedValue } from '@/utils/getCorrectedValue'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode } from 'publicodes'
 
 const getFormattedActionValue = (

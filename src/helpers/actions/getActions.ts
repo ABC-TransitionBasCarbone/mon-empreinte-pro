@@ -6,7 +6,7 @@ import {
   NGCRule,
   NGCRuleNode,
   NGCRules,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { filterIrrelevantActions } from './filterIrrelevantActions'
 import { getIsActionDisabled } from './getIsActionDisabled'

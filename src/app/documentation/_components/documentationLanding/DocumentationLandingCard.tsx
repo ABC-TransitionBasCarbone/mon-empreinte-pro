@@ -9,7 +9,7 @@ import {
   getTextDarkColor,
 } from '@/helpers/getCategoryColorClass'
 import { useEngine } from '@/publicodes-state'
-import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Markdown from 'markdown-to-jsx'
 import { utils } from 'publicodes'
 

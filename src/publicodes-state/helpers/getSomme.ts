@@ -1,4 +1,4 @@
-import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 /**
  * We use this hook to get the content of the [somme] of a rule.

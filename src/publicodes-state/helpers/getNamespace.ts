@@ -1,4 +1,4 @@
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 /**
  * Returns the namespace of a rule. A level can be specified to get a specific
  * part of the namespace.

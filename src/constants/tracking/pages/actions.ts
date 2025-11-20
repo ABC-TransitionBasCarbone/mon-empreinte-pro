@@ -1,7 +1,7 @@
 // Return tracking data in format
 // [ 'trackEvent', 'Category', 'Action', 'Name', 'Value' ]
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 // Figma comment #67
 export const actionsClickStart = ['trackEvent', 'Actions', 'Click Démarrer']

@@ -2,7 +2,7 @@
 
 import { PropsWithChildren } from 'react'
 
-import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { SimulationContext } from './context'
 import { useCategories } from './useCategories'
 import { useEngine } from './useEngine'

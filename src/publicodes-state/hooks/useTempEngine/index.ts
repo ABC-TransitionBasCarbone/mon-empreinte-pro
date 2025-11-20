@@ -2,7 +2,7 @@ import {
   DottedName,
   NGCRuleNode,
   NGCRules,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useContext } from 'react'
 import { SimulationContext } from '../../providers/simulationProvider/context'
 import useCurrentSimulation from '../useCurrentSimulation'

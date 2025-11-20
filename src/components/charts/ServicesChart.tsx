@@ -1,5 +1,5 @@
 import { useEngine } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import RavijenChart from './RavijenChart'
 
 export default function ServicesChart() {

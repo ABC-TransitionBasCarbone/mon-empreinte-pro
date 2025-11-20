@@ -1,7 +1,7 @@
 'use client'
 
 import getNamespace from '@/publicodes-state/helpers/getNamespace'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { useMemo } from 'react'
 import { Situation } from '../../types'

@@ -1,7 +1,7 @@
 // Return tracking data in format
 // [ 'trackEvent', 'Category', 'Action', 'Name', 'Value' ]
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 // Triggered when we see the first question of the category
 export const simulationCategoryStarted = (category: DottedName) => [

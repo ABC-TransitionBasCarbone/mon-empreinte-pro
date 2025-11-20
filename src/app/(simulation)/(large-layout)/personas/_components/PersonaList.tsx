@@ -1,6 +1,6 @@
 'use client'
 
-import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Persona from './Persona'
 
 type Props = {

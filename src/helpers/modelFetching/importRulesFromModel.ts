@@ -2,7 +2,7 @@ export async function importRulesFromModel({ fileName }: { fileName: string }) {
   console.log('dynamically importing rules', fileName)
   try {
     return await import(
-      `@abc-transitionbascarbone/mon-empreinte-pro-modele/public/${fileName}`
+      `@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/${fileName}`
     ).then((module) => module.default)
   } catch (e) {
     console.error('importFile error', e)

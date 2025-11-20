@@ -1,4 +1,4 @@
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { Engine } from '../types'
 
 export const safeGetRuleHelper = (

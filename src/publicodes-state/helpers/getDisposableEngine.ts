@@ -1,4 +1,4 @@
-import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Engine from 'publicodes'
 import { Situation } from '../types'
 import { safeEvaluateHelper } from './safeEvaluateHelper'

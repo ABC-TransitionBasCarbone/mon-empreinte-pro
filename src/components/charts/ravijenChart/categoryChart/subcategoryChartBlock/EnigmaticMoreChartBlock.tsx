@@ -1,7 +1,7 @@
 'use client'
 
 import { getBackgroundColor } from '@/helpers/getCategoryColorClass'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 type Props = { category: DottedName; percentageSquashed: number }
 

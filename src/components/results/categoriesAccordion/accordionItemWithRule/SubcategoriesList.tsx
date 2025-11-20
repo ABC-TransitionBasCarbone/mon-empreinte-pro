@@ -1,7 +1,7 @@
 import { defaultMetric } from '@/constants/metric'
 import { useEngine, useRule } from '@/publicodes-state'
 import { Metric } from '@/publicodes-state/types'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import SubcategoryListItem from './subcategoriesList/SubcategoryListItem'
 
 type Props = {

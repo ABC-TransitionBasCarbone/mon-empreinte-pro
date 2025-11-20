@@ -1,6 +1,6 @@
 'use client'
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { PropsWithChildren, useContext, useMemo } from 'react'
 import { SimulationContext } from '../simulationProvider/context'
 import Provider from './Provider'

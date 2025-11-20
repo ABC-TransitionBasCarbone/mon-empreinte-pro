@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import { encodeRuleName } from '@/utils/publicodes/encodeRuleName'
-import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Fuse from 'fuse.js'
 import highlightMatches from '../_helpers/highlightMatches'
 import { Matches, SearchItem } from './SearchBar'

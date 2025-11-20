@@ -1,7 +1,7 @@
 'use client'
 
 import { carboneMetric } from '@/constants/metric'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, utils } from 'publicodes'
 import { useContext, useMemo } from 'react'
 import { SimulationContext } from '../../providers/simulationProvider/context'

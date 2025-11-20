@@ -5,7 +5,7 @@ import {
   DottedName,
   NGCRuleNode,
   NGCRulesNodes,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useMemo } from 'react'
 
 type Props = {

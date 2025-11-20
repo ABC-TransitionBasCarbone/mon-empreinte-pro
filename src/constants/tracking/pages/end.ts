@@ -2,7 +2,7 @@
 // [ 'trackEvent', 'Category', 'Action', 'Name', 'Value' ]
 
 import { NorthStarType, NorthStarValue } from '@/types/northstar'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 // Figma comment #57
 export const endClickPoll = ['trackEvent', 'Fin', 'Click Poll']

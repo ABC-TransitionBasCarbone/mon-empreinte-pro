@@ -5,7 +5,7 @@ import {
   DottedName,
   NGCRuleNode,
   NodeValue,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, PublicodesExpression, utils } from 'publicodes'
 import { useCallback } from 'react'
 import getType from '../../helpers/getType'

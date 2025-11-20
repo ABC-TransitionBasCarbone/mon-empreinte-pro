@@ -1,6 +1,6 @@
 'use client'
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { createContext } from 'react'
 
 type FormContextType = {

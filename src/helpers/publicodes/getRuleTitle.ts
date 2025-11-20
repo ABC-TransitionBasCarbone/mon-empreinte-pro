@@ -1,4 +1,4 @@
-import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRule } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { utils } from 'publicodes'
 
 export const getRuleTitle = (

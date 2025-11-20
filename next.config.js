@@ -61,7 +61,7 @@ const nextConfig = {
       '/actions/plus': ['public/images/blog', 'public/NGC_Kit.diffusion.zip'],
       '/sitemap.xml': ['public/images/blog', 'public/NGC_Kit.diffusion.zip'],
     },
-    optimizePackageImports: ['@abc-transitionbascarbone/mon-empreinte-pro-modele'],
+    optimizePackageImports: ['@abc-transitionbascarbone/mon-empreinte-pro-new-model'],
     webpackBuildWorker: true,
     turbo: {
       rules: {

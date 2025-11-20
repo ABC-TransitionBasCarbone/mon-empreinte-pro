@@ -6,7 +6,7 @@ import {
   getBgCategoryColor,
   getBorderCategoryColor,
 } from '@/helpers/getCategoryColorClass'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useEffect, useRef } from 'react'
 import { twMerge } from 'tailwind-merge'
 

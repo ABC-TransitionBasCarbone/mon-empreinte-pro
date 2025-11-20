@@ -5,7 +5,7 @@ import { useEffect, useCallback, useState } from 'react'
 import { twMerge } from 'tailwind-merge'
 import Slide
   from '@/app/(simulation)/(large-layout-nosticky)/fin/_components/carbone/subcategories/subcategory/actions/Slide'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Action from './Action'
 
 type Props = {

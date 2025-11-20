@@ -2,7 +2,7 @@
 
 import { useCurrentSimulation } from '@/publicodes-state'
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { PropsWithChildren, useContext } from 'react'
 import { SimulationContext } from '../simulationProvider/context'
 import FormContext from './context'

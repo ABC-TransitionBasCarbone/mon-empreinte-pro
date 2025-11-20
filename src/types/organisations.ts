@@ -3,7 +3,7 @@ import {
   Simulation,
   Situation,
 } from '@/publicodes-state/types'
-import { FunFacts } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { FunFacts } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 export type OrganisationSimulation = Simulation & {
   bilan: number

@@ -7,7 +7,7 @@ import {
   getTextCategoryColor,
 } from '@/helpers/getCategoryColorClass'
 import { useForm, useRule } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { motion } from 'framer-motion'
 type Props = {
   notification: DottedName

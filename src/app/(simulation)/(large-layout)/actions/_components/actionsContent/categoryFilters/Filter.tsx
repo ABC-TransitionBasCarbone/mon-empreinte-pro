@@ -8,7 +8,7 @@ import {
 } from '@/helpers/getCategoryColorClass'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 type Props = {

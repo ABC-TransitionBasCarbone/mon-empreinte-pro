@@ -1,7 +1,7 @@
 import Question from '@/components/form/Question'
 import Trans from '@/components/translation/Trans'
 import Button from '@/design-system/inputs/Button'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useState } from 'react'
 import PencilIcon from '../icons/PencilIcon'
 import ThreeYearsInput from './avion/ThreeYearsInput'

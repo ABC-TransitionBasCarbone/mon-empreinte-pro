@@ -3,7 +3,7 @@ import { Journey } from '@/types/journey'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { JourneysInputDesktop } from './journeysInput/JourneysInputDesktop'
 import JourneysInputMobile from './journeysInput/JourneysInputMobile'
 

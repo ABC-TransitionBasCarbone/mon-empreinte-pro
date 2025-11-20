@@ -1,5 +1,5 @@
 import { useRule } from '@/publicodes-state'
-import { DottedName, NodeValue } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NodeValue } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 type Props = {
   value: NodeValue

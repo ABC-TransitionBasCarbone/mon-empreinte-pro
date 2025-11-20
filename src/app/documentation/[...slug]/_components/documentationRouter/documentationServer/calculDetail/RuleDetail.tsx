@@ -1,7 +1,7 @@
 import Link from '@/components/Link'
 import { capitalizeString } from '@/utils/capitalizeString'
 import { encodeRuleName } from '@/utils/publicodes/encodeRuleName'
-import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { Rule, utils } from 'publicodes'
 
 const KEYS_TO_OMIT = [

@@ -11,7 +11,7 @@ import {
   DottedName,
   NGCRule,
   NGCRules,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 type Props = {
   actions: Post[]

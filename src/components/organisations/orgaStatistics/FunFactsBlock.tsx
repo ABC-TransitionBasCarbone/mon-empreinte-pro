@@ -1,6 +1,6 @@
 'use client'
 
-import { DottedName, FunFacts } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, FunFacts } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { twMerge } from 'tailwind-merge'
 import FunFactsItem from './funFacts/FunFactsItem'
 

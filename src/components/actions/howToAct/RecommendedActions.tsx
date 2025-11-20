@@ -1,7 +1,7 @@
 'use client'
 
 import { useActions, useEngine } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useMemo } from 'react'
 import RecommendedAction from './recommendedActions/RecommendedAction'
 

@@ -5,7 +5,7 @@ import Emoji from '@/design-system/utils/Emoji'
 import { formatCarbonFootprint } from '@/helpers/formatters/formatCarbonFootprint'
 import { useRule } from '@/publicodes-state'
 import { SimulationRecap } from '@/types/organisations'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { t } from 'i18next'
 import RepartitionChart from './RepartitionChart'
 

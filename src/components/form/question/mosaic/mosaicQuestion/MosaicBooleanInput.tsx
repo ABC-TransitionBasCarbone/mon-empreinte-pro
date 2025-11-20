@@ -2,7 +2,7 @@ import Trans from '@/components/translation/Trans'
 import { DEFAULT_FOCUS_ELEMENT_ID } from '@/constants/accessibility'
 import Emoji from '@/design-system/utils/Emoji'
 import { useRule } from '@/publicodes-state'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { motion } from 'framer-motion'
 import { twMerge } from 'tailwind-merge'
 

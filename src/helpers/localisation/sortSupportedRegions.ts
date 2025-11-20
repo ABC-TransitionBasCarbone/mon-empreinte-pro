@@ -1,7 +1,7 @@
 import {
   SupportedRegion,
   SupportedRegions,
-} from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 export const sortSupportedRegions = ({
   supportedRegions,

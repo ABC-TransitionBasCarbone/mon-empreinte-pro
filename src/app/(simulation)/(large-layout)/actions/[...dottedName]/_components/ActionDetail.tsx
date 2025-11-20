@@ -15,7 +15,7 @@ import {
   useUser,
 } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { utils } from 'publicodes'
 import ActionForm from '../../_components/actionsContent/actions/ActionForm'
 

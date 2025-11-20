@@ -1,7 +1,7 @@
-import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
-import personasEN from '@abc-transitionbascarbone/mon-empreinte-pro-modele/public/personas-en.json'
-import personasES from '@abc-transitionbascarbone/mon-empreinte-pro-modele/public/personas-es.json'
-import personasFR from '@abc-transitionbascarbone/mon-empreinte-pro-modele/public/personas-fr.json'
+import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
+import personasEN from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/personas-en.json'
+import personasES from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/personas-es.json'
+import personasFR from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/personas-fr.json'
 import { importPreviewFile } from './importPreviewFile'
 
 const personasByLocale: Record<string, Personas> = {

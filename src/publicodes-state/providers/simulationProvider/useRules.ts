@@ -1,5 +1,5 @@
 import { Engine, Entries, ParsedRules } from '@/publicodes-state/types'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { utils } from 'publicodes'
 import { useMemo } from 'react'
 import { MissingVariables } from './../../types.d'

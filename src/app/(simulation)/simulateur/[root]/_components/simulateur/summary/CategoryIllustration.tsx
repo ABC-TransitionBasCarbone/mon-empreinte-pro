@@ -1,7 +1,7 @@
 'use client'
 
 import { useClientTranslation } from '@/hooks/useClientTranslation'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import Image from 'next/image'
 import { useMemo } from 'react'
 import { twMerge } from 'tailwind-merge'

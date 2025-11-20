@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import { getRuleTitle } from '@/helpers/publicodes/getRuleTitle'
-import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { utils } from 'publicodes'
 
 export default function PagesProches({

@@ -1,5 +1,5 @@
-import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
-import rules from '@abc-transitionbascarbone/mon-empreinte-pro-modele/public/co2-model.FR-lang.fr-opti.json'
+import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
+import rules from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/co2-model.FR-lang.fr-opti.json'
 import { getSupportedRegions } from './getSupportedRegions'
 import { importPreviewFile } from './importPreviewFile'
 import { importRulesFromModel } from './importRulesFromModel'

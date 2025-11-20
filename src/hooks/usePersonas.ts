@@ -1,5 +1,5 @@
 import { getPersonas } from '@/helpers/modelFetching/getPersonas'
-import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { Personas } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import {
   UseQueryResult,
   keepPreviousData,

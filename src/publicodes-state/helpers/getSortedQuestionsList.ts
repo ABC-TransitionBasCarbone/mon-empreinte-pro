@@ -1,5 +1,5 @@
 import { getSubcatsOfCategory } from '@/helpers/publicodes/getSubcatsOfCategory'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 type Props = {
   questions: DottedName[]

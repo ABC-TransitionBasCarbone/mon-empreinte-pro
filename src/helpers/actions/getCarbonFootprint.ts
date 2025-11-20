@@ -1,6 +1,6 @@
 import { getCurrentLangInfos } from '@/locales/translation'
 import { TranslationFunctionType } from '@/types/translation'
-import { NodeValue } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { NodeValue } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 const getRawUnitDigitsArray = ({
   value,

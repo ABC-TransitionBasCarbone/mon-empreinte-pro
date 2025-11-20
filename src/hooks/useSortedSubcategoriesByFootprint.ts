@@ -1,6 +1,6 @@
 import { useEngine, useSimulation } from '@/publicodes-state'
 import { Metric } from '@/publicodes-state/types'
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useMemo } from 'react'
 
 type Props = {

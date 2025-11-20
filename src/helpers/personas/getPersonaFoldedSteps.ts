@@ -1,5 +1,5 @@
 import { Engine, Entries, Situation } from '@/publicodes-state/types'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { fixSituationWithPartialMosaic } from './fixSituationWithPartialMosaic'
 

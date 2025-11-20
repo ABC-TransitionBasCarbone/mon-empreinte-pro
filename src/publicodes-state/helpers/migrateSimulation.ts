@@ -1,4 +1,4 @@
-import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-modele'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { Migration, migrateSituation } from '@publicodes/tools/migration'
 import { Simulation } from '../types'
 
