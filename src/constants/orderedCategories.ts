@@ -2,8 +2,8 @@ import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-mode
 
 export const orderedCategories: DottedName[] = [
   'transport',
-  'séjour',
   'alimentation',
   'logement',
   'divers',
+  'services sociétaux',
 ]
