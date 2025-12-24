@@ -1,6 +1,4 @@
-import SaveIcon from '@/components/icons/SaveIcon'
 import ToastDisplay from '@/components/messages/ToastDisplay'
-import Trans from '@/components/translation/Trans'
 import {
   endClickSaveShortcut,
 } from '@/constants/tracking/pages/end'
@@ -14,10 +12,6 @@ import { twMerge } from 'tailwind-merge'
 const sizeClassNames = {
   sm: '!p-0 h-10 w-10',
   md: '!p-0 h-10 w-10',
-}
-const saveClassNames = {
-  sm: 'h-6 w-6',
-  md: 'h-6 w-6',
 }
 /*const shareClassNames = {
   sm: 'h-[22px] w-[22px]',

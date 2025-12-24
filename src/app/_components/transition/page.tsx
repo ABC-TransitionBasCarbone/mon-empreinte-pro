@@ -14,7 +14,6 @@ export const TransitionPage = ({ transitionPage }: { transitionPage: string }) =
         <div>Quelques ordres de grandeur pour comparaison :</div>
       }
       {(() => {
-        console.log(transitionPage)
         switch (transitionPage) {
           case 'transport':
             return (
