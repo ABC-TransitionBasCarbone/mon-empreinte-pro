@@ -128,12 +128,6 @@ export default function HeadingButtons({ size = 'md', endPage }: Props) {
           )
           handleScroll('email-block', 'start')
         }}>
-        <SaveIcon
-          className={twMerge('fill-primary-700', saveClassNames[size])}
-        />
-        <span className="hidden lg:inline">
-          <Trans>Sauvegarder</Trans>
-        </span>
       </Button>
 
       {/*<Button
