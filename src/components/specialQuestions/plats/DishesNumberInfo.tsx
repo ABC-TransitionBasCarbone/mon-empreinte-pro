@@ -6,31 +6,21 @@ export default function DishesNumberInfo() {
     'ui . nombre de repas par semaine'
   )
 
-  const { numericValue: travelTime = 0 } = useRule('transport . durée séjour') ?? {};
-
   return (
     <>
-      <div aria-live="polite" className="mb-2 text-center text-sm">
-        {travelTime !== 0 && totalNumberOfPlats !== 2 * travelTime && (
-          <span className="text-red-700">
-            <Trans>Vous avez dit rester </Trans>
+      {totalNumberOfPlats != 10 && <div aria-live="polite" className="mb-2 text-center text-sm">
+        <span className="text-red-700">
+          <Trans>Êtes vous sûr de vouloir renseigner</Trans>
+          <strong>
             <strong>
-              <strong>{travelTime}</strong>{' '}
+              {' '}{totalNumberOfPlats}
             </strong>{' '}
-            <Trans>jours, êtes vous sûr de vouloir renseigner </Trans>
-            <strong>
-              <strong>
-                {totalNumberOfPlats < 2 * travelTime
-                  ? `moins de ${2 * travelTime}`
-                  : `plus de ${2 * travelTime}`}
-              </strong>{' '}
-            </strong>{' '}
-            <Trans>
-              repas (soit {totalNumberOfPlats < 2 * travelTime ? 'moins' : 'plus'} de 2 repas par jour).
-            </Trans>
-          </span>
-        )}
-      </div>
+          </strong>{' '}
+          <Trans>
+            repas (soit {totalNumberOfPlats < 10 ? 'moins' : 'plus'} de 2 repas par jour).
+          </Trans>
+        </span>
+      </div>}
     </>
   )
 }

@@ -61,9 +61,6 @@ export default function Actions({ subcategory, noNumberedFootprint }: Props) {
     case 'transport':
       customTitle = '🚗 Transport'
       break
-    case 'séjour':
-      customTitle = '🚗 Transport'
-      break
     case 'alimentation':
       customTitle = '🍽️ Alimentation'
       break

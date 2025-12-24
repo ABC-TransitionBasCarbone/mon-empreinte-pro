@@ -40,7 +40,7 @@ export default function FinPage() {
 
       <div>
         <Title tag="h1">
-          <Trans>L'empreinte de mon séjour</Trans>
+          <Trans>Mon empreinte professionnelle</Trans>
         </Title>
       </div>
 

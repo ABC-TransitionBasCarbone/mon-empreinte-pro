@@ -41,14 +41,14 @@ export default function TabNavigation({
       )}>
       <div className="flex">
         <button
-          aria-label="L'empreinte de mon séjour"
+          aria-label="Mon empreinte professionnelle"
           onClick={() => setCurrentTab(carboneTab)}
           className={twMerge(
             'z-40 mb-0 rounded-t-xl border-2 px-4 pb-1 pt-2 text-lg font-medium transition-all duration-300',
             carboneTabClasses[currentTab]
           )}>
           <span className="hidden lg:inline">
-            <Trans>L'empreinte de mon séjour</Trans>{' '}
+            <Trans>Mon empreinte professionnelle</Trans>{' '}
           </span>
         </button>
         {!isSticky && (

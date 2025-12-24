@@ -24,21 +24,12 @@ export const TransitionPage = ({ transitionPage }: { transitionPage: string }) =
                 name="impact-co2"
               />
             );
-          case 'séjour':
+          case 'DT':
             return (
               <ImpactCO2Module
                 src="https://impactco2.fr/iframe.js"
                 dataType="transport"
                 dataSearch="?theme=default&language=fr&km=10&defaultMode=list&comparison=voiturethermique,autocar&modes=intercites,voiturethermique+1,voiturethermique,voitureelectrique+1,voitureelectrique,autocar,marche,velo,veloelectrique,busthermique,tramway,metro,scooter,moto,rer,buselectrique,trottinette,busgnv"
-                name="impact-co2"
-              />
-            );
-          case 'alimentation':
-            return (
-              <ImpactCO2Module
-                src="https://impactco2.fr/iframe.js"
-                dataType="/alimentation"
-                dataSearch="?alimentationCategory=group&theme=default&language=fr"
                 name="impact-co2"
               />
             );
@@ -55,7 +46,7 @@ export const TransitionPage = ({ transitionPage }: { transitionPage: string }) =
             return (
               <ImpactCO2Module
                 src="https://impactco2.fr/iframe.js"
-                dataType="quiz"
+                dataType="numerique"
                 dataSearch="?&language=fr&theme=default"
                 name="impact-co2"
               />

@@ -53,7 +53,7 @@ export default function AutresQuestions() {
             <div className="my-2 ml-3.5 text-sm">
               <p>
                 <Trans>
-                  Avec une unité au nom barbare : l’équivalent CO2, écrit CO2e. C’est-à-dire qu’on ramène la contribution de réchauffement de tous les gaz à effet de serre à celle du gaz que tout le monde connait : le dioxyde de carbone (laisser l’émoji molécule), oui celui que l’on expire mais heureusement sans influence sur le climat. A titre d’exemple, un kg de méthane (CH4) qui a un pouvoir réchauffant 30 fois supérieur à celui du CO2 équivaut à 30 kgCO2e
+                  Avec une unité au nom barbare : l’équivalent CO2, écrit CO2e. C’est-à-dire qu’on ramène la contribution de réchauffement de tous les gaz à effet de serre à celle du gaz que tout le monde connait : le dioxyde de carbone, oui celui que l’on expire mais heureusement sans influence sur le climat. A titre d’exemple, un kg de méthane (CH4) qui a un pouvoir réchauffant 30 fois supérieur à celui du CO2 équivaut à 30 kgCO2e
                 </Trans>
               </p>
               <Image
@@ -73,12 +73,12 @@ export default function AutresQuestions() {
               onClick={() =>
                 trackEvent(tutorielClickQuestion('D’où vient mon empreinte ?'))
               }>
-              <Trans>D’où vient l’empreinte de mon séjour ? Et que faire pour la réduire ?</Trans>
+              <Trans>D’où vient mon empreinte professionelle ? Et que faire pour la réduire ?</Trans>
             </summary>
             <div className="my-2 ml-3.5">
               <Trans>
                 <p>
-                  Ce n’est peut-être pas une surprise pour vous mais nos déplacements sont souvent le facteur principal de l’empreinte de notre séjour, surtout s’ils sont faits en voiture. Mais comme nous allons le voir d’autres actes quotidiens pendant notre séjour contribue à notre empreinte. C’est pourquoi, en fin de test nous vous proposerons des pistes d’actions pour la réduire et pour faire en sorte que votre séjour contribue à un tourisme durable.
+                  Ce n’est peut-être pas une surprise pour vous mais les déplacements (domicile-travail et profesionnels) sont souvent le facteur principal de l'empreinte liée au travail, surtout s’ils sont faits en voiture. Mais comme nous allons le voir d’autres pratiques du quotidien au travail contribuent à notre empreinte. C’est pourquoi, en fin de test nous vous proposerons des pistes d’actions pour la réduire et pour faire en sorte d'inscrire ces pratiques dans une démarche professionnelle plus durable.
                 </p>
               </Trans>
             </div>
