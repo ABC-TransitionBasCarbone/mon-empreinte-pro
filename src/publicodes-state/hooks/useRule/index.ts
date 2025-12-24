@@ -55,29 +55,11 @@ export default function useRule(
     evaluation,
   })
 
-  const regionSelected = useMemo(
-    () => {
-      const regionRule = safeGetRule('transport . localisation séjour')
-      if (regionRule) {
-        const suggestions = regionRule.rawNode['suggestions'] || {}
-        for (const [key, value] of Object.entries(suggestions)) {
-          if (value === situation['transport . localisation séjour']) {
-            return key
-          }
-        }
-      }
-
-      return ''
-    },
-    [safeGetRule, situation]
-  )
-
   const { notifications, activeNotifications } = useNotifications({
     dottedName,
     everyNotifications,
     safeEvaluate,
     situation,
-    regionSelected,
   })
 
   const { questionsOfMosaicFromParent, questionsOfMosaicFromSibling } =

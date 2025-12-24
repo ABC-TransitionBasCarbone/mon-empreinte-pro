@@ -23,8 +23,7 @@ export default function AvantDeCommencer() {
           <span className="hidden md:inline">
             {' '}
             <Trans>
-              Même si vous ne voyageait probablement pas seul, répondez aux questions en votre nom. Bien sûr, pendant un séjour, de nombreuses choses sont souvent partagées (voiture, hébergement) et cela est bien pris en compte dans le calcul de l’empreinte carbone de votre séjour
-            </Trans>
+              Cette phase de test est individuelle et se concentre sur certaines pratiques émissives typiques du travail tertiaire, secteur qui représente près de 80 % des emplois en France. Certaines spécificités métiers pouvant entraîner des émissions de GES ne sont pas encore couvertes dans cette version, mais elles seront adressées dans une prochaine mise à jour.             </Trans>
           </span>
         </p>
         <h4 className="relative overflow-visible font-bold mt-2">
