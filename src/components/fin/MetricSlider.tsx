@@ -61,7 +61,6 @@ export default function MetricSlider({
       ref={myElementRef}>
       <TabNavigation
         isSticky={isSticky}
-        isStatic={isStatic}
         shouldShowWater={!(isStatic)}
       />
       <div
@@ -80,7 +79,7 @@ export default function MetricSlider({
             </div>
           </div>
         )}
-         {currentTab === comparateurTab && (
+        {currentTab === comparateurTab && (
           <div className={twMerge('relative !flex h-full flex-col')}>
             <ImpactCO2Module
               src="https://impactco2.fr/iframe.js"
