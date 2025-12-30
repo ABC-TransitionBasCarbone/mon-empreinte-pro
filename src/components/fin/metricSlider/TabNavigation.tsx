@@ -1,7 +1,6 @@
 'use client'
 
 import { twMerge } from 'tailwind-merge'
-import HeadingButtons from './heading/HeadingButtons'
 import Trans from '@/components/translation/Trans'
 import { useClientTranslation } from '@/hooks/useClientTranslation'
 import { useCurrentTab } from '@/hooks/useCurrentTab'
@@ -23,12 +22,10 @@ const comparateurTabClasses: Record<Tab, string> = {
 
 type Props = {
   isSticky?: boolean
-  isStatic?: boolean
   shouldShowWater?: boolean
 }
 export default function TabNavigation({
   isSticky,
-  isStatic,
 }: Props) {
   const { t } = useClientTranslation()
   const { currentTab, setCurrentTab } = useCurrentTab()
@@ -65,7 +62,6 @@ export default function TabNavigation({
           </button>
         )}
       </div>
-      {!isStatic && <HeadingButtons />}
     </div>
   )
 }
