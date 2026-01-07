@@ -20,11 +20,9 @@ import { useRouter } from 'next/navigation'
 
 export default function Total({
   toggleQuestionList,
-  toggleSaveModal,
   simulationMode = true,
 }: {
   toggleQuestionList?: () => void
-  toggleSaveModal?: () => void
   simulationMode?: boolean
 }) {
   const { t } = useClientTranslation()
@@ -94,7 +92,6 @@ export default function Total({
           {toggleQuestionList ? (
             <TotalButtons
               toggleQuestionList={toggleQuestionList}
-              toggleSaveModal={toggleSaveModal}
             />
           ) : null}
         </div>

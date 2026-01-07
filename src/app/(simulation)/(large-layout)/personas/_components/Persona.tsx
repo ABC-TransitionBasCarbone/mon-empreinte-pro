@@ -9,7 +9,7 @@ import { useDisposableEngine, useSimulation, useUser } from '@/publicodes-state'
 import {
   DottedName,
   Persona as PersonaType,
-} from '@abc-transitionbascarbone/calculateur-tourisme'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useRouter } from 'next/navigation'
 
 type Props = {
@@ -38,8 +38,8 @@ export default function Persona({ persona, personaDottedName }: Props) {
   return (
     <Card
       className={`${isCurrentPersonaSelected
-          ? '!border-2 border-green-500 bg-green-200'
-          : 'border-none bg-primary-50'
+        ? '!border-2 border-green-500 bg-green-200'
+        : 'border-none bg-primary-50'
         } items-center`}>
       <div className="text-lg">{persona['icônes']}</div>
 

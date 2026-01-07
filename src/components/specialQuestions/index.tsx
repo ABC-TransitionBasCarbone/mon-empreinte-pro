@@ -39,13 +39,6 @@ const specialQuestions: Record<string, any> = {
       {...props}
     />
   ),
-  'transport . séjour . voiture . km': (props: Props) => (
-    <Voiture
-      key="transport . séjour . voiture . km"
-      question="transport . séjour . voiture . km"
-      {...props}
-    />
-  ),
 }
 
 export default specialQuestions

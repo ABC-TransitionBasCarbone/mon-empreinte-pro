@@ -1,6 +1,6 @@
 import { getRules } from '@/helpers/modelFetching/getRules'
 import { useUser } from '@/publicodes-state'
-import { NGCRules } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import {
   UseQueryResult,
   keepPreviousData,

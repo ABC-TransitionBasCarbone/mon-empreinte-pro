@@ -1,6 +1,6 @@
 import { defaultMetric } from '@/constants/metric'
 import { Simulation } from '@/publicodes-state/types'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 /**
  * Takes two Simulations and returns true if they are different, false otherwise.

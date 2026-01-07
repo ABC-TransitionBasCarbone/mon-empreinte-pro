@@ -1,5 +1,5 @@
 import Question from '@/components/form/Question'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 type Props = {
   question: DottedName

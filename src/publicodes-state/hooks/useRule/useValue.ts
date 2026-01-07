@@ -1,6 +1,6 @@
 'use client'
 
-import { NodeValue } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { NodeValue } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode } from 'publicodes'
 import { useMemo } from 'react'
 

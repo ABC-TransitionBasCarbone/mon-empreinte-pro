@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@abc-transitionbascarbone/calculateur-tourisme@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@abc-transitionbascarbone/calculateur-tourisme/-/calculateur-tourisme-1.0.14.tgz#8ba15220dac9d8531cae248babfba433b3defc4c"
-  integrity sha512-z1hWLVJVPKqUXXggIy9ICDbERurPq/RBYqCD7MtEIwZHan6GCy/3SlkUTJ1f94RAL5n+p3wYh27C+Rl+3GJGnQ==
+"@abc-transitionbascarbone/mon-empreinte-pro-new-model@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@abc-transitionbascarbone/mon-empreinte-pro-new-model/-/mon-empreinte-pro-new-model-1.0.0.tgz#5c587a1c7c49986c92d6050d268956efea0d5d65"
+  integrity sha512-qSkUIBZPEd1o9piXZpMqYuvEvq5gSkchvW8HErxioyn2g1PxtSVIMcHh8B/nE8bFVnXD1RrH+3TxSBX/s7mVww==
 
 "@alloc/quick-lru@^5.2.0":
   version "5.2.0"

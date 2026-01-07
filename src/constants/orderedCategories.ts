@@ -1,9 +1,9 @@
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 
 export const orderedCategories: DottedName[] = [
-  'transport',
-  'séjour',
-  'alimentation',
-  'logement',
+  'bureaux',
   'divers',
+  'DT',
+  'transport',
+  'alimentation',
 ]

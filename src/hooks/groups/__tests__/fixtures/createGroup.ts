@@ -3,9 +3,9 @@ import { getComputedResults } from '@/publicodes-state/helpers/getComputedResult
 import { getSubcategories } from '@/publicodes-state/helpers/getSubcategories'
 import { safeGetRuleHelper } from '@/publicodes-state/helpers/safeGetRuleHelper'
 import { faker } from '@faker-js/faker'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
-import rules from '@abc-transitionbascarbone/calculateur-tourisme/public/co2-model.FR-lang.fr.json'
-import personas from '@abc-transitionbascarbone/calculateur-tourisme/public/personas-fr.json'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
+import rules from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/co2-model.FR-lang.fr.json'
+import personas from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/personas-fr.json'
 import Engine from 'publicodes'
 
 const engine = new Engine(rules)

@@ -17,10 +17,37 @@ export default async function Partners() {
             className="h-auto w-20"
           />
         </Link>
-        <Link href="https://www.tourisme-en-hautsdefrance.com/" target="_blank">
+        <Link href="https://www.grdf.fr/" target="_blank">
           <Image
-            src="/images/misc/logo-hdf.png"
-            alt={t("Logo de Haut de France tourisme")}
+            src="/images/ambassadeurs/grdf.png"
+            alt="Logo de GRDF"
+            width="600"
+            height="253"
+            className="h-auto w-32"
+          />
+        </Link>
+        <Link href="https://www.ag2rlamondiale.fr" target="_blank">
+          <Image
+            src="/images/ambassadeurs/ag2r.png"
+            alt="Logo de AG2R"
+            width="600"
+            height="253"
+            className="h-auto w-32"
+          />
+        </Link>
+        <Link href="https://www.edf.fr/" target="_blank">
+          <Image
+            src="/images/ambassadeurs/edf.png"
+            alt="Logo d'EDF"
+            width="600"
+            height="253"
+            className="h-auto w-32"
+          />
+        </Link>
+        <Link href="https://www.francetravail.fr/" target="_blank">
+          <Image
+            src="/images/ambassadeurs/francetravail.png"
+            alt="Logo de France Travail"
             width="600"
             height="253"
             className="h-auto w-32"

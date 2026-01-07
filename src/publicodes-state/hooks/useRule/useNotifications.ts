@@ -1,7 +1,7 @@
 'use client'
 
 import getNamespace from '@/publicodes-state/helpers/getNamespace'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, PublicodesExpression } from 'publicodes'
 import { useMemo } from 'react'
 import { Situation } from '../../types'
@@ -11,7 +11,6 @@ type Props = {
   everyNotifications: DottedName[]
   safeEvaluate: (rule: PublicodesExpression) => EvaluatedNode | null
   situation: Situation
-  regionSelected: string | undefined
 }
 
 export default function useNotifications({
@@ -19,7 +18,6 @@ export default function useNotifications({
   everyNotifications,
   safeEvaluate,
   situation,
-  regionSelected,
 }: Props) {
   const notifications = useMemo(
     () =>
@@ -49,12 +47,7 @@ export default function useNotifications({
       }
       return notifications.filter(
         (notification) =>  {
-          const notifForNonSelectedRegion = !regionSelected && notification.match(new RegExp(`^${dottedName}.*région générale`, 'i'))
-          const notifForSelectedRegion = regionSelected && notification.match(new RegExp(`^${dottedName}.*(${regionSelected}|région générale)`, 'i'))
-          if (notifForNonSelectedRegion || notifForSelectedRegion) {
             return safeEvaluate(notification)?.nodeValue
-          }
-          return false
         })
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps

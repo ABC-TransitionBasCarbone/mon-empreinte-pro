@@ -19,7 +19,7 @@ import {
 import Button from '@/design-system/inputs/Button'
 import { useRule } from '@/publicodes-state'
 import { trackEvent } from '@/utils/matomo/trackEvent'
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useEffect, useRef, useState } from 'react'
 import { twMerge } from 'tailwind-merge'
 import Trans from '../translation/Trans'
@@ -87,9 +87,6 @@ export default function Question({
 
   const [isOpen, setIsOpen] = useState(showInputsLabel ? false : true)
 
-  const excludedQuestionsInput = ['transport . localisation séjour'];
-
-
   return (
     <>
       <div className={twMerge('mb-6 flex flex-col items-start', className)}>
@@ -116,7 +113,7 @@ export default function Question({
         ) : null}
         {isOpen && (
           <>
-            {type === 'number' && !excludedQuestionsInput.includes(question) && (
+            {type === 'number' && (
               <NumberInput
                 unit={unit}
                 value={setTempValue ? tempValue : numericValue}

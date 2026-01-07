@@ -1,4 +1,4 @@
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode } from 'publicodes'
 
 type Props = {

@@ -1,6 +1,6 @@
 'use client'
 
-import { NGCRuleNode } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { useMemo } from 'react'
 
 type Props = {

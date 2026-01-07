@@ -39,7 +39,7 @@ export default function Gauge({ isSmall }: Props) {
             'absolute bottom-full right-0 text-xs',
             isSmall && 'opacity-0'
           )}>
-          1000
+          12
         </div>
       ) : null}
     </div>

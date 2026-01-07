@@ -1,5 +1,5 @@
-import { DottedName } from '@abc-transitionbascarbone/calculateur-tourisme'
-import rules from '@abc-transitionbascarbone/calculateur-tourisme/public/co2-model.FR-lang.fr.json'
+import { DottedName } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
+import rules from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/co2-model.FR-lang.fr.json'
 import Engine from 'publicodes'
 import getSomme from '../helpers/getSomme'
 import { Situation } from '../types'

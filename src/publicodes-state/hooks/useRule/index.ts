@@ -1,7 +1,7 @@
 'use client'
 
 import { carboneMetric } from '@/constants/metric'
-import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/calculateur-tourisme'
+import { DottedName, NGCRuleNode } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import { EvaluatedNode, utils } from 'publicodes'
 import { useContext, useMemo } from 'react'
 import { SimulationContext } from '../../providers/simulationProvider/context'
@@ -55,29 +55,11 @@ export default function useRule(
     evaluation,
   })
 
-  const regionSelected = useMemo(
-    () => {
-      const regionRule = safeGetRule('transport . localisation séjour')
-      if (regionRule) {
-        const suggestions = regionRule.rawNode['suggestions'] || {}
-        for (const [key, value] of Object.entries(suggestions)) {
-          if (value === situation['transport . localisation séjour']) {
-            return key
-          }
-        }
-      }
-
-      return ''
-    },
-    [safeGetRule, situation]
-  )
-
   const { notifications, activeNotifications } = useNotifications({
     dottedName,
     everyNotifications,
     safeEvaluate,
     situation,
-    regionSelected,
   })
 
   const { questionsOfMosaicFromParent, questionsOfMosaicFromSibling } =

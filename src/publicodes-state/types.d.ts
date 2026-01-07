@@ -3,7 +3,7 @@ import {
   DottedName,
   Metrics,
   SuggestionValue,
-} from '@abc-transitionbascarbone/calculateur-tourisme'
+} from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
 import PublicodesEngine, {
   ParsedRules as PublicodesParsedRules,
   Situation as PublicodesSituation,

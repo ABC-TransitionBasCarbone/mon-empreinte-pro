@@ -1,5 +1,5 @@
-import { NGCRules } from '@abc-transitionbascarbone/calculateur-tourisme'
-import rules from '@abc-transitionbascarbone/calculateur-tourisme/public/co2-model.FR-lang.fr-opti.json'
+import { NGCRules } from '@abc-transitionbascarbone/mon-empreinte-pro-new-model'
+import rules from '@abc-transitionbascarbone/mon-empreinte-pro-new-model/public/co2-model.FR-lang.fr.json'
 import { getSupportedRegions } from './getSupportedRegions'
 import { importPreviewFile } from './importPreviewFile'
 import { importRulesFromModel } from './importRulesFromModel'
@@ -32,7 +32,7 @@ export async function getRules({
   let fileName = ''
   // We provide optimized version of the model only for the FR region
   if (regionCodeToProvide === 'FR') {
-    fileName = `co2-model.FR-lang.${locale}${isOptim ? '-opti' : ''}.json`
+    fileName = `co2-model.FR-lang.${locale}.json`
   } else {
     fileName = `co2-model.${regionCodeToProvide}-lang.${locale}.json`
   }
