@@ -24,6 +24,15 @@ export const TransitionPage = ({ transitionPage }: { transitionPage: string }) =
                 name="impact-co2"
               />
             );
+          case 'alimentation':
+            return (
+              <ImpactCO2Module
+                src="https://impactco2.fr/iframe.js"
+                dataType="/alimentation"
+                dataSearch="?alimentationCategory=group&theme=default&language=fr"
+                name="impact-co2"
+              />
+            );
           case 'DT':
             return (
               <ImpactCO2Module
@@ -33,20 +42,20 @@ export const TransitionPage = ({ transitionPage }: { transitionPage: string }) =
                 name="impact-co2"
               />
             );
-          case 'logement':
-            return (
-              <ImpactCO2Module
-                src="https://impactco2.fr/iframe.js"
-                dataType="comparateur"
-                dataSearch="?value=1&comparisons=camping,location,residencesecondaire&equivalent=hotel&language=fr&theme=default"
-                name="impact-co2"
-              />
-            )
           case 'divers':
             return (
               <ImpactCO2Module
                 src="https://impactco2.fr/iframe.js"
                 dataType="numerique"
+                dataSearch="?&language=fr&theme=default"
+                name="impact-co2"
+              />
+            )
+          case 'logement':
+            return (
+              <ImpactCO2Module
+                src="https://impactco2.fr/iframe.js"
+                dataType="quiz"
                 dataSearch="?&language=fr&theme=default"
                 name="impact-co2"
               />

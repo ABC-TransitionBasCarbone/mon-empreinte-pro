@@ -19,7 +19,7 @@ const defaultProps = {
  * This function is used to get the rules. It is used in the useRules hook and can also be called directly from a server component.
  */
 export async function getRules({
-  isOptim = true,
+  isOptim = false,
   regionCode = 'FR',
   locale = 'fr',
   PRNumber,

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@abc-transitionbascarbone/mon-empreinte-pro-new-model@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@abc-transitionbascarbone/mon-empreinte-pro-new-model/-/mon-empreinte-pro-new-model-1.0.0.tgz#5c587a1c7c49986c92d6050d268956efea0d5d65"
-  integrity sha512-qSkUIBZPEd1o9piXZpMqYuvEvq5gSkchvW8HErxioyn2g1PxtSVIMcHh8B/nE8bFVnXD1RrH+3TxSBX/s7mVww==
+"@abc-transitionbascarbone/mon-empreinte-pro-new-model@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@abc-transitionbascarbone/mon-empreinte-pro-new-model/-/mon-empreinte-pro-new-model-1.0.1.tgz#61448bd9f08f0ee186fa827a8feab32a218eaec0"
+  integrity sha512-rlwbK3JY+xc39ZOzWwD6Jhc3whvQDXSsAbifMsc+n+aDH36JaCWjUlKWD8Ad6fsyNuF/bOetKRHMRg6myn6/3Q==
 
 "@alloc/quick-lru@^5.2.0":
   version "5.2.0"

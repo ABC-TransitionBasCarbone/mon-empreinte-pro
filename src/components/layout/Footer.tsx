@@ -64,7 +64,7 @@ export default async function Footer({ className = '' }) {
             alt="Logo eau de paris"
             width="600"
             height="253"
-            className="h-auto w-32"
+            className="h-auto w-24"
           />
         </Link>
       </div>
