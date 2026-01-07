@@ -62,10 +62,7 @@ export default function CarboneTargetContent({ isOpen, isHedgehog }: Props) {
           hasSeparator={isOpen}
           title={
             <Trans>
-              <strong className="text-secondary-700 font-black">
-                2 tonnes
-              </strong>{' '}
-              en 2050 ?
+              [Encart à personnaliser]
             </Trans>
           }
         />
@@ -76,10 +73,7 @@ export default function CarboneTargetContent({ isOpen, isHedgehog }: Props) {
           className="text-lg lg:text-2xl"
           title={
             <Trans>
-              <strong className="text-secondary-700 font-black">
-                2 tonnes
-              </strong>{' '}
-              en 2050 ?
+              [Encart à personnaliser]
             </Trans>
           }
         />
@@ -91,8 +85,7 @@ export default function CarboneTargetContent({ isOpen, isHedgehog }: Props) {
         )}>
         <p>
           <Trans>
-            C’est l’objectif à atteindre pour espérer limiter le réchauffement
-            climatique à 2 degrés.
+            Connaissez-vous les objectifs climatiques de [Mon Entreprise]
           </Trans>
         </p>
         <TargetChart isQuestionOpen={isQuestionOpen} />

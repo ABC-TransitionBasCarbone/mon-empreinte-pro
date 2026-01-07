@@ -10,15 +10,12 @@ export default function DishesNumberInfo() {
     <>
       {totalNumberOfPlats != 10 && <div aria-live="polite" className="mb-2 text-center text-sm">
         <span className="text-red-700">
-          <Trans>Êtes vous sûr de vouloir renseigner</Trans>
+          <Trans>Êtes vous sûr de vouloir renseigner {totalNumberOfPlats < 5 ? 'moins' : 'plus'}</Trans>
           <strong>
             <strong>
-              {' '}{totalNumberOfPlats}
+              {' '}de 5 repas
             </strong>{' '}
           </strong>{' '}
-          <Trans>
-            repas (soit {totalNumberOfPlats < 10 ? 'moins' : 'plus'} de 2 repas par jour).
-          </Trans>
         </span>
       </div>}
     </>
