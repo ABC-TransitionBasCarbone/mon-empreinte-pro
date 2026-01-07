@@ -22,7 +22,7 @@ type Props = {
 export default function Providers({
   children,
   supportedRegions,
-  isOptim = true,
+  isOptim = false,
 }: PropsWithChildren<Props>) {
   const { id } = useCurrentSimulation()
 

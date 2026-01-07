@@ -14,8 +14,8 @@ type Props = {
 }
 
 export function useRules(
-  { isOptim = true, region = 'FR', PRNumber }: Props = {
-    isOptim: true,
+  { isOptim = false, region = 'FR', PRNumber }: Props = {
+    isOptim: false,
     region: 'FR',
   }
 ): UseQueryResult<NGCRules, Error> {
