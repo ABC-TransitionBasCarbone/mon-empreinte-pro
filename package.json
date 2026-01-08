@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.26.9",
-    "@abc-transitionbascarbone/mon-empreinte-pro-new-model": "^1.0.1",
+    "@abc-transitionbascarbone/mon-empreinte-pro-new-model": "^1.1.0",
     "@incubateur-ademe/legal-pages-react": "^0.2.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
